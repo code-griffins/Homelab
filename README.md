@@ -19,7 +19,7 @@ This homelab is designed to:
 
 ## Hardware Inventory
 
-## OptiPlex Node 1 — Virtualization Host
+## Node 1 OptiPlex — Virtualization Host
 
 Specs
 
@@ -36,7 +36,7 @@ Hosts virtualized workloads:
 
 Proxmox enables workload isolation, snapshot support, and flexible service migration between nodes.
 
-## OptiPlex Node 2 — Application Services Node
+## Node 2 OptiPlex — Application Services Node
 
 Specs
 
@@ -52,7 +52,7 @@ Dedicated application host:
 
 This node isolates indexing-heavy media workloads from virtualization infrastructure.
 
-## Raspberry Pi 5 — Observability + Network Services Node
+## Node 2 Raspberry Pi 5 — Observability + Network Services Node
 
 Specs
 
