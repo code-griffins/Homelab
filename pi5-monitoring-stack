@@ -1,0 +1,14 @@
+node_exporter  → host metrics
+cadvisor       → container metrics
+        ↓
+   Prometheus
+        ↓
+     Grafana
+
+This enables:
+
+* CPU usage tracking
+* memory monitoring
+* disk utilization visibility
+* container performance inspection
+* historical metrics analysis
