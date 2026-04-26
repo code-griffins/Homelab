@@ -70,4 +70,56 @@ Runs infrastructure-level monitoring and DNS services:
 * cAdvisor
 * node_exporter
 
-Acts as the visibility and control layer of the homelab network.
+Acts as the visibility and control layer of the pi node.
+
+## Services Currently Running
+
+## Jellyfin
+
+Self-hosted media streaming platform replacing cloud streaming dependencies.
+
+Demonstrates:
+
+* media workload hosting
+* storage throughput planning
+* service isolation via virtualization
+
+## Nextcloud
+
+Private cloud storage and collaboration platform.
+
+Demonstrates:
+
+* persistent volume management
+* identity-aware service hosting
+* self-hosted file synchronization infrastructure
+
+## Immich
+
+Self-hosted photo backup and indexing platform.
+
+Demonstrates:
+
+* storage-heavy application deployment
+* workload isolation strategy
+* media indexing pipeline hosting
+
+## Prometheus + Grafana
+
+Metrics pipeline providing infrastructure observability across all thre pi5 node.
+
+Demonstrates:
+
+* telemetry collection workflows
+* time-series monitoring
+* dashboard visualization design
+
+## Pi-hole
+
+DNS-layer infrastructure service controlling internal network resolution.
+
+Demonstrates:
+
+* network-level service control
+* centralized filtering architecture
+* service discovery foundation
