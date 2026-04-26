@@ -123,3 +123,36 @@ Demonstrates:
 * network-level service control
 * centralized filtering architecture
 * service discovery foundation
+
+## Reliability Strategy (In Progress)
+
+Planned improvements:
+
+* automated backups
+* snapshot scheduling
+* centralized storage layer
+* reverse proxy entry point
+* VLAN segmentation
+* secure remote access
+
+## Future Roadmap
+
+## Planned infrastructure upgrades:
+
+* rack-mounted enclosure deployment
+* centralized NAS node
+* managed switch VLAN segmentation
+* reverse proxy gateway
+* internal DNS service naming
+* container orchestration experiments
+* local LLM infrastructure using Ollama
+
+## Why This Project Exists
+
+This homelab serves as a hands-on infrastructure engineering environment for experimenting with:
+
+* distributed service placement
+* virtualization platforms
+* observability pipelines
+* DNS-layer networking
+* self-hosted cloud services
