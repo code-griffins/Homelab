@@ -1,14 +1,13 @@
-Homelab Infrastructure Portfolio
+## Homelab Infrastructure Portfolio
 
-Overview
+# Overview
 
 This repository documents the architecture, design decisions, and evolution of my self-hosted homelab environment. The goal of this project is to gain hands-on experience with infrastructure engineering, service orchestration, storage planning, and networking while building a reliable personal platform for experimentation and production-grade self-hosted services.
 
 The lab currently runs across multiple small-form-factor nodes and a Raspberry Pi, connected through a gigabit network switch and organized into a compact rack setup.
 
-⸻
 
-Hardware Inventory
+# Hardware Inventory
 
 Compute Nodes
 
@@ -35,7 +34,7 @@ Node 3
 
 ⸻
 
-Physical Layout (Current + Planned)
+## Physical Layout (Current + Planned)
 
 The homelab currently runs as a compact multi‑node desktop cluster connected through a gigabit switch. A small rack enclosure (DeskPi RackMate or similar) is planned to improve cable management, airflow, and modular expansion as the system grows.
 
@@ -54,12 +53,8 @@ Planned rack additions:
 * Firewall appliance (future)
 * UPS power backup
 
-⸻
-
-Network Topology
-
+## Network Topology
 Layout
-
 ISP Router
 → Gigabit Switch
 → OptiPlex Node 1
@@ -75,10 +70,7 @@ Design Goals
 * Prepare for VLAN segmentation later
 * Enable centralized storage access
 
-⸻
-
-Storage Strategy
-
+## Storage Strategy
 Current Allocation
 
 Device	Storage	Purpose
@@ -92,9 +84,7 @@ NVMe storage is prioritized for latency‑sensitive workloads such as container 
 
 High‑capacity storage is centralized on the Raspberry Pi node to prepare for shared storage across services.
 
-⸻
-
-Services Currently Running
+## Services Currently Running
 
 Immich (Self‑Hosted Photo Platform)
 
@@ -111,8 +101,6 @@ Benefits:
 * Local photo ownership
 * Faster indexing than cloud sync
 * No subscription dependency
-
-⸻
 
 Planned Services Roadmap
 
@@ -142,8 +130,6 @@ AI Infrastructure
 * Model serving experiments
 * Private automation assistants
 
-⸻
-
 Service Placement Strategy
 
 Services are distributed based on workload characteristics:
@@ -154,8 +140,6 @@ Media indexing	8 GB OptiPlex
 Compute workloads	16 GB OptiPlex
 
 This separation improves reliability and allows independent scaling.
-
-⸻
 
 Networking Upgrade Path
 
@@ -168,8 +152,6 @@ Planned improvements:
 
 These changes will transition the homelab toward a production‑style internal architecture.
 
-⸻
-
 Reliability Strategy
 
 Planned reliability improvements include:
@@ -178,8 +160,6 @@ Planned reliability improvements include:
 * Service restart automation
 * Storage redundancy
 * Configuration version control
-
-⸻
 
 Lessons Learned So Far
 
@@ -190,8 +170,6 @@ Separating storage workloads from compute workloads improves responsiveness.
 Running services locally provides more control over performance, privacy, and upgrade cycles.
 
 Designing infrastructure incrementally makes scaling decisions easier over time.
-
-⸻
 
 Future Architecture Vision
 
