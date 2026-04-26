@@ -1,0 +1,16 @@
+  GNU nano 8.4                                     docker-compose.yml                                              
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    ports:
+      - "8096:8096"
+      - "7359:7359/udp"
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - ./media/movies:/media/movies
+      - ./media/shows:/media/shows
+    restart: unless-stopped
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
