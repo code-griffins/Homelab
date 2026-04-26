@@ -5,8 +5,8 @@ cadvisor       → container metrics
         ↓
      Grafana
 
-This enables:
 
+This enables:
 * CPU usage tracking
 * memory monitoring
 * disk utilization visibility
