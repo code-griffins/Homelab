@@ -1,0 +1,13 @@
+  GNU nano 8.4                                        compose.yml                                                  
+services:
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    volumes:
+      - ./nextcloud_data:/var/www/html
+    environment:
+      - TZ=America/New_York
+
