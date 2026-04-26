@@ -1,0 +1,17 @@
+ISP Router
+   │
+Gigabit Switch
+   │
+   ├── OptiPlex Node 1 (Proxmox)
+   │      ├── Jellyfin (media server)
+   │      └── Nextcloud (private cloud)
+   │
+   ├── OptiPlex Node 2 (Ubuntu Server)
+   │      └── Immich (photo platform)
+   │
+   └── Raspberry Pi 5 (Monitoring + DNS)
+          ├── Pi-hole
+          ├── Prometheus
+          ├── Grafana
+          ├── cAdvisor
+          └── node_exporter
