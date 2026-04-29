@@ -29,10 +29,11 @@ Specs
 
 Responsibilities
 
-Hosts virtualized workloads:
+Hosts virtualized workloads and DNS services:
 
 * Jellyfin
 * Nextcloud
+* Pi-hole
 
 Proxmox enables workload isolation, snapshot support, and flexible service migration between nodes.
 
@@ -64,7 +65,6 @@ Responsibilities
 
 Runs infrastructure-level monitoring and DNS services:
 
-* Pi-hole
 * Prometheus
 * Grafana
 * cAdvisor
